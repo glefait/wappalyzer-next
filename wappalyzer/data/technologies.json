@@ -25234,7 +25234,7 @@
         "oss": true,
         "scriptSrc": [
             "list\\.js/\\;confidence:50",
-            "@([\\d.]+)/(?:/dist)?list\\.(?:min\\.)?js\\;version:\\1"
+            "@([\\d.]+)/(?:dist/)?list\\.(?:min\\.)?js\\;version:\\1"
         ],
         "website": "https://listjs.com"
     },

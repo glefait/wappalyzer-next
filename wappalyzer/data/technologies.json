@@ -24041,7 +24041,7 @@
         "description": "LeadSlide is a marketing campaign software designed for wordpress, ecommerce, and Shopify.",
         "icon": "LeadSlide.svg",
         "saas": true,
-        "scriptSrc": "\\leadslide\\.com/",
+        "scriptSrc": "\\.leadslide\\.com/",
         "website": "https://v1.leadslide.com"
     },
     "Leadbit": {
@@ -24106,7 +24106,7 @@
             "recurring"
         ],
         "saas": true,
-        "scriptSrc": "\\leadsbridge\\.com/",
+        "scriptSrc": "\\.leadsbridge\\.com/",
         "website": "https://leadsbridge.com"
     },
     "LeadsSight": {
@@ -66473,7 +66473,7 @@
             "recurring"
         ],
         "saas": true,
-        "scriptSrc": "cdn1.\\jameda-elements\\.de/",
+        "scriptSrc": "cdn1\\.jameda-elements\\.de/",
         "website": "https://www.jameda.de"
     },
     "Java": {

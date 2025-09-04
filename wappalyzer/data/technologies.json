@@ -19392,7 +19392,10 @@
             "recurring"
         ],
         "saas": true,
-        "scriptSrc": "divhunt-site\\.\\w-cdn\\.net/",
+        "scriptSrc": [
+          "divhunt-site\\.b-cdn\\.net/",
+          "divhunt.com"
+        ]
         "website": "https://www.divhunt.com"
     },
     "Divi": {
@@ -26095,7 +26098,7 @@
             "recurring"
         ],
         "saas": true,
-        "scriptSrc": "lojamestre\\.\\w+\\.br",
+        "scriptSrc": "lojamestre\\.com\\.br",
         "website": "https://www.lojamestre.com.br/"
     },
     "Loja Virtual": {
@@ -43517,7 +43520,7 @@
             "payg"
         ],
         "saas": true,
-        "scriptSrc": "(?:get.)?exitintel\\.com",
+        "scriptSrc": "(?:get\\.)?exitintel\\.com",
         "website": "https://exitintelligence.com"
     },
     "Exitshop": {
@@ -62800,7 +62803,11 @@
             "recurring"
         ],
         "saas": true,
-        "scriptSrc": "cdn\\.(?:segment.+)?amplitude(?:\\.com|-plugins)",
+        "scriptSrc": [
+          "segment\\.amplitude\\.com",
+          "cdn\\.amplitude\\.com",
+          "amplitude/analytics"
+        ],
         "website": "https://amplitude.com",
         "xhr": "\\.amplitude\\.com"
     },

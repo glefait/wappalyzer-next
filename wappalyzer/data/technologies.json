@@ -89004,7 +89004,7 @@
         ],
         "saas": true,
         "scriptSrc": [
-            "//[^/]+\\.criteo\\.(?:com|net)/",
+            "//[^/]+\\.criteo\\.(?:com|net)/"
         ],
         "website": "https://criteo.com"
     },

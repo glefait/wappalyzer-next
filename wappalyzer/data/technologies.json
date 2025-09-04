@@ -5368,7 +5368,7 @@
         "description": "Glider.js is a fast, lightweight, responsive, dependency-free scrollable list with customisable paging controls.",
         "icon": "Glider.js.svg",
         "oss": true,
-        "scriptSrc": "(?:/|@)?([\\d\\.]{2,})?/glider\\.min\\.js\\;version:\\1",
+        "scriptSrc": "(?:@([\\d\\.]{2,}))?/glider\\.min\\.js\\;version:\\1",
         "website": "https://nickpiscitelli.github.io/Glider.js"
     },
     "Glitch": {
@@ -58587,7 +58587,7 @@
             "aframeStats": ""
         },
         "oss": true,
-        "scriptSrc": "/?([\\d.]+)?/aframe(?:\\.min)?\\.js\\;version:\\1",
+        "scriptSrc": "(?:@([\\d.]+))?/aframe(?:\\.min)?\\.js\\;version:\\1",
         "website": "https://aframe.io"
     },
     "A2Z Events": {
@@ -63013,7 +63013,7 @@
         "js": {
             "ngMaterial": ""
         },
-        "scriptSrc": "/([\\d.rc-]+)?/angular-material(?:\\.min)?\\.js\\;version:\\1",
+        "scriptSrc": "(?:@([\\d.rc-]+))?/angular-material(?:\\.min)?\\.js\\;version:\\1",
         "website": "https://material.angularjs.org"
     },
     "AngularDart": {
@@ -89004,8 +89004,7 @@
         ],
         "saas": true,
         "scriptSrc": [
-            "//(?:cas\\.criteo\\.com|(?:[^/]\\.)?criteo\\.net)/",
-            "//static\\.criteo\\.net/js/ld/ld\\.js"
+            "//[^/]+\\.criteo\\.(?:com|net)/",
         ],
         "website": "https://criteo.com"
     },

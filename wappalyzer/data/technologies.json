@@ -82860,7 +82860,7 @@
         "meta": {
             "cargo_title": ""
         },
-        "scriptSrc": "(?<!elo\\.io)/cargo\\.",
+        "scriptSrc": "//[^/]+\\.cargo\\.site/",
         "website": "https://cargo.site"
     },
     "CargoServer": {

@@ -3865,7 +3865,7 @@
             "mid",
             "recurring"
         ],
-        "scriptSrc": "//.*glpi.+common\\.min\\.js\\?v=(\\d+\\.\\d+\\.\\d+)\\;version:\\1",
+        "scriptSrc": "glpi/js/common\\.min\\.js\\?v=(\\d+\\.\\d+\\.\\d+)\\;version:\\1",
         "website": "https://glpi-project.org"
     },
     "GLS": {

@@ -10549,7 +10549,7 @@
         "dom": "link[href*='//www.fortune3.com/'],link[href*='siterate/rate.css']",
         "icon": "Fortune3.png",
         "saas": true,
-        "scriptSrc": "cartjs\\.php\\?(?:.*&)?s=[^&]*myfortune3cart\\.com",
+        "scriptSrc": "/cartjs\\.php\\?(?:.*&)?s=[^&]*myfortune3cart\\.com",
         "website": "https://fortune3.com"
     },
     "Foswiki": {
@@ -30806,7 +30806,7 @@
             "recurring"
         ],
         "saas": true,
-        "scriptSrc": "searchanise(?:-.+\\.kxcdn)?\\.com/",
+        "scriptSrc": "searchanise(?:-[a-z0-9]+\\.kxcdn)?\\.com/",
         "website": "https://start.searchanise.com"
     },
     "SearchiQ": {
@@ -63133,7 +63133,7 @@
             "poa"
         ],
         "saas": true,
-        "scriptSrc": "^(?!.*player).*aniview\\.com/",
+        "scriptSrc": "(?!player)\\.aniview\\.com/",
         "website": "https://aniview.com/video-ad-servers/"
     },
     "Aniview Video Ad Player": {
@@ -94060,7 +94060,7 @@
             "mid",
             "recurring"
         ],
-        "scriptSrc": "/.*\\.humanpresence\\.(?:io|app)/",
+        "scriptSrc": "\\.humanpresence\\.(?:io|app)/",
         "website": "https://www.humanpresence.io"
     },
     "Humblytics": {
@@ -95524,7 +95524,7 @@
             "recurring"
         ],
         "saas": true,
-        "scriptSrc": "/shopify-apps//js/betterprice/betterprice\\.js",
+        "scriptSrc": "/shopify-apps/js/betterprice/betterprice\\.js",
         "website": "https://apps.shopify.com/better-price"
     },
     "Better Replay": {
@@ -95539,7 +95539,7 @@
             "recurring"
         ],
         "saas": true,
-        "scriptSrc": ".api\\.better-replay\\.com/",
+        "scriptSrc": "\\.api\\.better-replay\\.com/",
         "website": "https://www.better-replay.com"
     },
     "Better Search": {
@@ -96120,7 +96120,8 @@
         "saas": true,
         "scriptSrc": [
             "cdn\\.bitrix24\\.com",
-            "\\.bitrix24\\..+/bitrix/js/crm/form_loader\\.js"
+            "//([^/]+\\.)?bitrix24\\.[^/]+",
+            "/bitrix/js/crm/form_loader\\.js"
         ],
         "website": "https://www.bitrix24.com"
     },
@@ -96668,7 +96669,7 @@
             "poa"
         ],
         "saas": true,
-        "scriptSrc": "cdn.getblueshift.com/",
+        "scriptSrc": "cdn\\.getblueshift\\.com/",
         "website": "https://blueshift.com"
     },
     "Bluestone PIM": {
@@ -96909,7 +96910,7 @@
             "recurring"
         ],
         "saas": true,
-        "scriptSrc": "cp.\\.boldapps\\.net/",
+        "scriptSrc": "cp\\.boldapps\\.net/",
         "website": "https://boldcommerce.com/custom-pricing"
     },
     "Bold Motivator": {

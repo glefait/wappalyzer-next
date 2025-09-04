@@ -13646,7 +13646,7 @@
         "dom": "link[href*='/materialize.min.css']",
         "icon": "Materialize CSS.svg",
         "oss": true,
-        "scriptSrc": "([\\d\\.]+)/.*/materialize\\.min\\.js\\;version:\\1",
+        "scriptSrc": "([\\d\\.]+)/.+/materialize\\.min\\.js\\;version:\\1",
         "website": "https://materializecss.com"
     },
     "MathJax": {

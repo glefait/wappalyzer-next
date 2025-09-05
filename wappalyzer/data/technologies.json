@@ -80540,7 +80540,7 @@
         "saas": true,
         "scriptSrc": [
             "\\.cloudfront\\.net/unbxdAnalytics\\.js",
-            "unbxd\\.s\\d\\.amazonaws\\.com"
+            "unbxd\\.s3\\.amazonaws\\.com"
         ],
         "website": "https://unbxd.com"
     },

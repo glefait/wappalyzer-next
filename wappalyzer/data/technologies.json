@@ -47074,7 +47074,7 @@
             "recurring"
         ],
         "requires": "Shopify",
-        "scriptSrc": "//return-prime-proxy-prod\\.s3[^ ]*\\.amazonaws\\.com/",
+        "scriptSrc": "//return-prime-proxy-prod\\.s3\\.amazonaws\\.com/",
         "website": "https://www.returnprime.com/"
     },
     "ReturnGO": {

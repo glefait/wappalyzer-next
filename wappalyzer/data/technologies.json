@@ -63131,7 +63131,7 @@
         "dom": {
             "link[href*='aniview.com']": {
                 "attributes": {
-                    "href": "^(?!.*player).+\\.aniview\\.com/"
+                    "href": "^(?!.*player)\\.aniview\\.com/"
                 }
             }
         },
@@ -63140,7 +63140,7 @@
             "poa"
         ],
         "saas": true,
-        "scriptSrc": "(?!player)\\.aniview\\.com/",
+        "scriptSrc": "(?!player).+\\.aniview\\.com/",
         "website": "https://aniview.com/video-ad-servers/"
     },
     "Aniview Video Ad Player": {

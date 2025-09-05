@@ -63131,7 +63131,7 @@
         "dom": {
             "link[href*='aniview.com']": {
                 "attributes": {
-                    "href": "^(?!.*player).*aniview\\.com/"
+                    "href": "^(?!.*player).+\\.aniview\\.com/"
                 }
             }
         },
@@ -90557,7 +90557,7 @@
             "recurring"
         ],
         "saas": true,
-        "scriptSrc": "(?!cdn-loyalty)\\.yotpo\\.com/",
+        "scriptSrc": "(?!cdn-loyalty).+\\.yotpo\\.com/",
         "website": "https://www.yotpo.com/platform/reviews/"
     },
     "Yotpo SMSBump": {
